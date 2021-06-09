@@ -6,11 +6,17 @@ jQuery(function() {
 	$("body").hover(function(){
 						 $("#overlay").animate({
 								 width: "toggle"
+						 })
+						 $("h1").animate({
+								 width: "toggle"
+						 })
+						 $("#yellowOverlay").animate({
+								 width: "toggle"
 						 });
 				 });
 });
 
-
+/*
 jQuery(function() {
 
 	$("body").hover(function(){
@@ -19,7 +25,7 @@ jQuery(function() {
 						 });
 				 });
 });
-
+*/
 
   $(document).ready(function(){
     $("body").hover(function(){
@@ -31,11 +37,11 @@ jQuery(function() {
     });
 
 
-		$("body").hover(function(){
+	/*	$("body").hover(function(){
 							 $("#yellowOverlay").animate({
 									 width: "toggle"
 							 });
 					 });
-
+*/
 
   });
