@@ -121,9 +121,7 @@ h1 {
   .masthead-brand {
     float: left; }
   .nav-masthead {
-    float: right; }
-  .mastfoot {
-    float: center; } }
+    float: right; } }
 
 @media (max-width: 768px) {
   body {
