@@ -126,7 +126,13 @@ h1 {
 @media (max-width: 768px) {
   body {
     background-image: none !important;
-    background-color: #141517 !important; }
+    background-color: #141517 !important;
+    overflow: visible; }
+  h2 {
+    margin-right: 5rem; }
+  .nav {
+    justify-content: center;
+    padding-right: 5rem; }
   #overlay {
     display: none !important; }
   #yellowOverlay {
@@ -134,7 +140,13 @@ h1 {
   .about {
     display: block !important;
     font-size: 20px;
-    color: white; } }
+    color: white;
+    padding-right: 60px; }
+  h1 {
+    font-size: 5rem; }
+  .col-md-3 {
+    margin-left: auto;
+    margin-right: auto; } }
 
 /*
  * Cover
