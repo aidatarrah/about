@@ -126,8 +126,7 @@ h1 {
 @media (max-width: 768px) {
   body {
     background-image: none !important;
-    background-color: #141517 !important;
-    overflow: visible; }
+    background-color: #141517 !important; }
   .nav {
     justify-content: center; }
   #overlay {
