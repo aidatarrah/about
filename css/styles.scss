@@ -28,12 +28,9 @@ html,
 body {
   height: 100%;
   font-family: 'Google Sans',Roboto,Arial,sans-serif;
-  overflow: hidden;
 }
 
 body {
-  overflow: hidden;
-  display: -ms-flexbox;
   display: flex;
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
@@ -43,7 +40,6 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 #yellowOverlay {
@@ -128,6 +124,7 @@ h1 {
  .about {
    display: none;
  }
+ 
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -136,11 +133,17 @@ h1 {
     float: right;
   }
 }
+@media screen and (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+}
 
 @media (max-width: 768px) {
   body {
   background-image: none!important;
   background-color: #141517!important;
+  overflow: auto;
   }
   .nav {
     justify-content: center;
@@ -172,12 +175,12 @@ h1 {
   color: white;
 }
 
-/*
- * Footer
- */
+/*Footer*/
+
 .mastfoot {
   color: rgba(255, 255, 255, .5);
   width: 100%;
-  margin-bottom: -20px;
+  margin: -1.25rem 1.5rem;
   font-size: 0.80rem;
+  text-align: left;
 }
