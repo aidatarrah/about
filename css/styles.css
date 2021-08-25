@@ -78,9 +78,7 @@ body {
   position: absolute;
   /* Sit on top of the page content */
   width: 60%;
-  /* Full width (cover the whole page) */
   height: 100%;
-  /* Full height (cover the whole page) */
   top: 0;
   right: 0;
   bottom: 0;
@@ -104,6 +102,10 @@ body {
 
 h1 {
   font-size: 130px;
+}
+
+.background-image-hover {
+  background-image: url(../img/landing_page_main_hover.jpg);
 }
 
 .nav-masthead .nav-link {

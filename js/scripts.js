@@ -1,9 +1,8 @@
 
 
-
 jQuery(function() {
 
-	$("body").hover(function(){
+	$("body").click(function() {
 						 $("#overlay").animate({
 								 width: "toggle"
 						 })
@@ -12,36 +11,14 @@ jQuery(function() {
 						 })
 						 $("#yellowOverlay").animate({
 								 width: "toggle"
-						 });
-				 });
+						 })
+
+			
+							$(this).toggleClass("background-image-hover")
+						  , function(){
+							$(this).toggleClass("background-image");
+						  }
+
+						});
 });
-
-/*
-jQuery(function() {
-
-	$("body").hover(function(){
-						 $("h1").animate({
-								 width: "toggle"
-						 });
-				 });
-});
-*/
-
-  $(document).ready(function(){
-    $("body").hover(function(){
-      $(this).css("background-image", "url(img/landing_page_main_hover.jpg)");
-      /*document.getElementById("yellowOverlay").style.display = "block";*/
-    }, function(){
-      $(this).css("background-image", "url(img/landing_page_main.jpg)");
-			/*document.getElementById("yellowOverlay").style.display = "none";*/
-    });
-
-
-	/*	$("body").hover(function(){
-							 $("#yellowOverlay").animate({
-									 width: "toggle"
-							 });
-					 });
-*/
-
-  });
+ 
