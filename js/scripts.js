@@ -14,8 +14,8 @@ jQuery(function() {
 						 })
 
 			
-							$(this).toggleClass("background-image-hover")
-						  , function(){
+							$(this).toggleClass("background-image-hover"), 
+						    function(){
 							$(this).toggleClass("background-image");
 						  }
 
